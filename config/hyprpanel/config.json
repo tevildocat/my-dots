@@ -257,7 +257,7 @@
   "bar.workspaces.numbered_active_indicator": "underline",
   "menus.media.displayTime": true,
   "menus.media.displayTimeTooltip": true,
-  "menus.clock.weather.key": "d1e1799fd51443819d282303242010",
+  "menus.clock.weather.key": "",
   "menus.clock.weather.unit": "metric",
   "menus.clock.weather.location": "Saint Petersburg",
   "menus.dashboard.stats.enable_gpu": true,
