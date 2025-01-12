@@ -1,0 +1,21 @@
+set $wallpaper /home/tevildo/Изображения/wallpapers/wallhaven-vgdlzl.jpg
+
+set $background #0a0e0f
+set $foreground #a5c2c5
+
+set $color0 #0a0e0f
+set $color1 #2B5B64
+set $color2 #20636E
+set $color3 #486D74
+set $color4 #217886
+set $color5 #4C7B83
+set $color6 #2A95A2
+set $color7 #a5c2c5
+set $color8 #738789
+set $color9 #2B5B64
+set $color10 #20636E
+set $color11 #486D74
+set $color12 #217886
+set $color13 #4C7B83
+set $color14 #2A95A2
+set $color15 #a5c2c5
