@@ -32,8 +32,8 @@ configuration {
 @import "~/.config/ml4w/settings/rofi-font.rasi"
 
 /* ---- Load pywal colors (custom wal template) ---- */
-//@theme "~/.cache/wal/colors-rofi-pywal"
-@theme "~/.cache/wal/colors-rofi-dark"
+@theme "~/.cache/wal/colors-rofi-pywal"
+//@theme "~/.cache/wal/colors-rofi-dark"
 
 /* ---- Load wallpaper ---- */
 @import "~/.config/ml4w/cache/current_wallpaper.rasi"
