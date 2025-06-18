@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/italy.png",
+    "alpha": "100",
+    "special": {
+        "background": "#06050A",
+        "foreground": "#f6ebd0",
+        "cursor": "#f6ebd0"
+    },
+    "colors": {
+        "color0": "#06050A",
+        "color1": "#8C7A6D",
+        "color2": "#A78D74",
+        "color3": "#F29270",
+        "color4": "#FEAC74",
+        "color5": "#FDB985",
+        "color6": "#FED69D",
+        "color7": "#f6ebd0",
+        "color8": "#aca491",
+        "color9": "#8C7A6D",
+        "color10": "#A78D74",
+        "color11": "#F29270",
+        "color12": "#FEAC74",
+        "color13": "#FDB985",
+        "color14": "#FED69D",
+        "color15": "#f6ebd0"
+    }
+}

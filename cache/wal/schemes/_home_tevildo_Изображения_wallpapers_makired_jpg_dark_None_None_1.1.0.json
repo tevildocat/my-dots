@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/makired.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0404",
+        "foreground": "#f2d3a5",
+        "cursor": "#f2d3a5"
+    },
+    "colors": {
+        "color0": "#0d0404",
+        "color1": "#8E3429",
+        "color2": "#9E4835",
+        "color3": "#E56436",
+        "color4": "#974D48",
+        "color5": "#A9564D",
+        "color6": "#EB7144",
+        "color7": "#f2d3a5",
+        "color8": "#a99373",
+        "color9": "#8E3429",
+        "color10": "#9E4835",
+        "color11": "#E56436",
+        "color12": "#974D48",
+        "color13": "#A9564D",
+        "color14": "#EB7144",
+        "color15": "#f2d3a5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/wallhaven-57z771.png",
+    "alpha": "100",
+    "special": {
+        "background": "#271d2a",
+        "foreground": "#d3e3e8",
+        "cursor": "#d3e3e8"
+    },
+    "colors": {
+        "color0": "#271d2a",
+        "color1": "#92ABB8",
+        "color2": "#D2B1A7",
+        "color3": "#9BB7C3",
+        "color4": "#A3BBC6",
+        "color5": "#B1AFE2",
+        "color6": "#AFCAD2",
+        "color7": "#d3e3e8",
+        "color8": "#939ea2",
+        "color9": "#92ABB8",
+        "color10": "#D2B1A7",
+        "color11": "#9BB7C3",
+        "color12": "#A3BBC6",
+        "color13": "#B1AFE2",
+        "color14": "#AFCAD2",
+        "color15": "#d3e3e8"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/Dark_Nature.png",
+    "alpha": "100",
+    "special": {
+        "background": "#050608",
+        "foreground": "#b4b7b8",
+        "cursor": "#b4b7b8"
+    },
+    "colors": {
+        "color0": "#050608",
+        "color1": "#3C4346",
+        "color2": "#4A5254",
+        "color3": "#5B605F",
+        "color4": "#575E60",
+        "color5": "#5B6465",
+        "color6": "#646C6D",
+        "color7": "#b4b7b8",
+        "color8": "#7d8080",
+        "color9": "#3C4346",
+        "color10": "#4A5254",
+        "color11": "#5B605F",
+        "color12": "#575E60",
+        "color13": "#5B6465",
+        "color14": "#646C6D",
+        "color15": "#b4b7b8"
+    }
+}

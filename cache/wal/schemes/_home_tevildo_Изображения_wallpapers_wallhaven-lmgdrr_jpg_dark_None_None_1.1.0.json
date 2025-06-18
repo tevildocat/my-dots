@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/wallhaven-lmgdrr.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1115",
+        "foreground": "#cbc9e4",
+        "cursor": "#cbc9e4"
+    },
+    "colors": {
+        "color0": "#0d1115",
+        "color1": "#4C4E72",
+        "color2": "#3C508B",
+        "color3": "#626290",
+        "color4": "#877A8D",
+        "color5": "#8B77A8",
+        "color6": "#AFA1CD",
+        "color7": "#cbc9e4",
+        "color8": "#8e8c9f",
+        "color9": "#4C4E72",
+        "color10": "#3C508B",
+        "color11": "#626290",
+        "color12": "#877A8D",
+        "color13": "#8B77A8",
+        "color14": "#AFA1CD",
+        "color15": "#cbc9e4"
+    }
+}

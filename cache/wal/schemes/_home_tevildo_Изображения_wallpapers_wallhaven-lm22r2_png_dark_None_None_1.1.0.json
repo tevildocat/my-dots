@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/wallhaven-lm22r2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#020C16",
+        "foreground": "#91dae2",
+        "cursor": "#91dae2"
+    },
+    "colors": {
+        "color0": "#020C16",
+        "color1": "#0F4B73",
+        "color2": "#4E6B58",
+        "color3": "#0F5688",
+        "color4": "#146E96",
+        "color5": "#4E7888",
+        "color6": "#2294A8",
+        "color7": "#91dae2",
+        "color8": "#65989e",
+        "color9": "#0F4B73",
+        "color10": "#4E6B58",
+        "color11": "#0F5688",
+        "color12": "#146E96",
+        "color13": "#4E7888",
+        "color14": "#2294A8",
+        "color15": "#91dae2"
+    }
+}

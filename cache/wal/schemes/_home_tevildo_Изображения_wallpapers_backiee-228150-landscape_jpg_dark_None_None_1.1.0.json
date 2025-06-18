@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/backiee-228150-landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151f12",
+        "foreground": "#c8c5a1",
+        "cursor": "#c8c5a1"
+    },
+    "colors": {
+        "color0": "#151f12",
+        "color1": "#374C43",
+        "color2": "#3B6743",
+        "color3": "#56654B",
+        "color4": "#60863A",
+        "color5": "#6A8F51",
+        "color6": "#979E5F",
+        "color7": "#c8c5a1",
+        "color8": "#8c8970",
+        "color9": "#374C43",
+        "color10": "#3B6743",
+        "color11": "#56654B",
+        "color12": "#60863A",
+        "color13": "#6A8F51",
+        "color14": "#979E5F",
+        "color15": "#c8c5a1"
+    }
+}

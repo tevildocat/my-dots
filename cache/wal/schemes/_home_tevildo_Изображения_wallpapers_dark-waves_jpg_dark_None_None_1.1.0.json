@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/dark-waves.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100f11",
+        "foreground": "#a7c1d0",
+        "cursor": "#a7c1d0"
+    },
+    "colors": {
+        "color0": "#100f11",
+        "color1": "#273C63",
+        "color2": "#32435F",
+        "color3": "#30496E",
+        "color4": "#4D4A63",
+        "color5": "#36618B",
+        "color6": "#516D90",
+        "color7": "#a7c1d0",
+        "color8": "#748791",
+        "color9": "#273C63",
+        "color10": "#32435F",
+        "color11": "#30496E",
+        "color12": "#4D4A63",
+        "color13": "#36618B",
+        "color14": "#516D90",
+        "color15": "#a7c1d0"
+    }
+}

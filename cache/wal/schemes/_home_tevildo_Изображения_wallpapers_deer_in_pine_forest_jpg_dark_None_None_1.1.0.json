@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/deer_in_pine_forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#08031F",
+        "foreground": "#dcdad9",
+        "cursor": "#dcdad9"
+    },
+    "colors": {
+        "color0": "#08031F",
+        "color1": "#1168A3",
+        "color2": "#4C6597",
+        "color3": "#B36F99",
+        "color4": "#09ABDB",
+        "color5": "#35AED5",
+        "color6": "#62D6EF",
+        "color7": "#dcdad9",
+        "color8": "#9a9897",
+        "color9": "#1168A3",
+        "color10": "#4C6597",
+        "color11": "#B36F99",
+        "color12": "#09ABDB",
+        "color13": "#35AED5",
+        "color14": "#62D6EF",
+        "color15": "#dcdad9"
+    }
+}

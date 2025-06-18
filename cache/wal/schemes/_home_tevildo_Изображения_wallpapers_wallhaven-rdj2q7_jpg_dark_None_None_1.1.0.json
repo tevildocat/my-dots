@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/wallhaven-rdj2q7.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#271238",
+        "foreground": "#ecc6f0",
+        "cursor": "#ecc6f0"
+    },
+    "colors": {
+        "color0": "#271238",
+        "color1": "#6257D3",
+        "color2": "#9358A9",
+        "color3": "#B958D0",
+        "color4": "#A062D7",
+        "color5": "#7591D9",
+        "color6": "#A8A4DD",
+        "color7": "#ecc6f0",
+        "color8": "#a58aa8",
+        "color9": "#6257D3",
+        "color10": "#9358A9",
+        "color11": "#B958D0",
+        "color12": "#A062D7",
+        "color13": "#7591D9",
+        "color14": "#A8A4DD",
+        "color15": "#ecc6f0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/mystical-forest-night-scene-desktop-wallpaper-4k.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F2C38",
+        "foreground": "#91d9e2",
+        "cursor": "#91d9e2"
+    },
+    "colors": {
+        "color0": "#0F2C38",
+        "color1": "#399C6A",
+        "color2": "#28698F",
+        "color3": "#23689A",
+        "color4": "#2C78BF",
+        "color5": "#258DAA",
+        "color6": "#26A0D6",
+        "color7": "#91d9e2",
+        "color8": "#65979e",
+        "color9": "#399C6A",
+        "color10": "#28698F",
+        "color11": "#23689A",
+        "color12": "#2C78BF",
+        "color13": "#258DAA",
+        "color14": "#26A0D6",
+        "color15": "#91d9e2"
+    }
+}

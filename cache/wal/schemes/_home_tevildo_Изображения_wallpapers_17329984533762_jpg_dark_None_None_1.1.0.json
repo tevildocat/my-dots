@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/17329984533762.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1112",
+        "foreground": "#a7b6bc",
+        "cursor": "#a7b6bc"
+    },
+    "colors": {
+        "color0": "#0c1112",
+        "color1": "#3C5963",
+        "color2": "#3E606A",
+        "color3": "#41585F",
+        "color4": "#415E68",
+        "color5": "#4B6B75",
+        "color6": "#597B85",
+        "color7": "#a7b6bc",
+        "color8": "#747f83",
+        "color9": "#3C5963",
+        "color10": "#3E606A",
+        "color11": "#41585F",
+        "color12": "#415E68",
+        "color13": "#4B6B75",
+        "color14": "#597B85",
+        "color15": "#a7b6bc"
+    }
+}

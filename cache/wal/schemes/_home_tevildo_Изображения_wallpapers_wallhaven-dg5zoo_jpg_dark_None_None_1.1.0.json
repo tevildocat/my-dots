@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/wallhaven-dg5zoo.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0a0c",
+        "foreground": "#afbac3",
+        "cursor": "#afbac3"
+    },
+    "colors": {
+        "color0": "#0b0a0c",
+        "color1": "#2F5054",
+        "color2": "#454040",
+        "color3": "#5E5955",
+        "color4": "#B74F4F",
+        "color5": "#95685F",
+        "color6": "#A7936C",
+        "color7": "#afbac3",
+        "color8": "#7a8288",
+        "color9": "#2F5054",
+        "color10": "#454040",
+        "color11": "#5E5955",
+        "color12": "#B74F4F",
+        "color13": "#95685F",
+        "color14": "#A7936C",
+        "color15": "#afbac3"
+    }
+}

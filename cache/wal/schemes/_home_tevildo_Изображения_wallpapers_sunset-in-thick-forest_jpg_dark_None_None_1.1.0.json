@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/sunset-in-thick-forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09090b",
+        "foreground": "#cbb7b6",
+        "cursor": "#cbb7b6"
+    },
+    "colors": {
+        "color0": "#09090b",
+        "color1": "#5E3846",
+        "color2": "#334755",
+        "color3": "#2C5165",
+        "color4": "#575B69",
+        "color5": "#9C222A",
+        "color6": "#CA484B",
+        "color7": "#cbb7b6",
+        "color8": "#8e807f",
+        "color9": "#5E3846",
+        "color10": "#334755",
+        "color11": "#2C5165",
+        "color12": "#575B69",
+        "color13": "#9C222A",
+        "color14": "#CA484B",
+        "color15": "#cbb7b6"
+    }
+}

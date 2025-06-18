@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tevildo/\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f/wallpapers/Lowpoly_Street.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d12",
+        "foreground": "#d3d4e6",
+        "cursor": "#d3d4e6"
+    },
+    "colors": {
+        "color0": "#0d0d12",
+        "color1": "#684D60",
+        "color2": "#B4726C",
+        "color3": "#546E94",
+        "color4": "#9674A1",
+        "color5": "#F3758D",
+        "color6": "#43B1DB",
+        "color7": "#d3d4e6",
+        "color8": "#9394a1",
+        "color9": "#684D60",
+        "color10": "#B4726C",
+        "color11": "#546E94",
+        "color12": "#9674A1",
+        "color13": "#F3758D",
+        "color14": "#43B1DB",
+        "color15": "#d3d4e6"
+    }
+}
