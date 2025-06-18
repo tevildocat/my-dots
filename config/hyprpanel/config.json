@@ -28,7 +28,8 @@
         "windowtitle",
         "media",
         "cpu",
-        "ram"
+        "ram",
+        "cava"
       ],
       "middle": [
         "workspaces"
@@ -37,6 +38,7 @@
         "netstat",
         "kbinput",
         "systray",
+        "microphone",
         "volume",
         "updates",
         "network",
@@ -87,7 +89,9 @@
     "alacritty": "",
     "class:kitty.ncmpcpp": "",
     "class:kitty.yazi": "",
-    "org.cachyos.cachyos-pi": "󱑥"
+    "org.cachyos.cachyos-pi": "󱑥",
+    "zen": "",
+    "io.github.celluloid_player.Celluloid": "󰻏"
   },
   "bar.workspaces.spacing": 2,
   "bar.windowtitle.title_map": [
@@ -215,6 +219,11 @@
       "org.cachyos.cachyos-pi",
       "󱑥",
       "Установщик пакетов CachyOS"
+    ],
+    [
+      "zen",
+      "",
+      "Zen"
     ]
   ],
   "bar.windowtitle.class_name": false,
@@ -245,6 +254,9 @@
     },
     "zoom": {
       "icon": "󰰶"
+    },
+    "chrome_status_icon_1": {
+      "icon": ""
     }
   },
   "bar.clock.format": "%a %d %b %R",
@@ -252,12 +264,12 @@
   "bar.notifications.hideCountWhenZero": true,
   "theme.bar.outer_spacing": "0.2em",
   "theme.bar.border.width": "0.15em",
-  "bar.launcher.icon": "",
+  "bar.launcher.icon": "",
   "bar.launcher.autoDetectIcon": true,
   "bar.workspaces.numbered_active_indicator": "underline",
   "menus.media.displayTime": true,
   "menus.media.displayTimeTooltip": true,
-  "menus.clock.weather.key": "",
+  "menus.clock.weather.key": "d1e1799fd51443819d282303242010",
   "menus.clock.weather.unit": "metric",
   "menus.clock.weather.location": "Saint Petersburg",
   "menus.dashboard.stats.enable_gpu": true,
@@ -270,9 +282,9 @@
   "bar.customModules.netstat.rateUnit": "MiB",
   "bar.customModules.updates.label": true,
   "bar.customModules.updates.rightClick": "/usr/share/hyprpanel/scripts/checkUpdates.sh -arch",
-  "wallpaper.image": "/home/tevildo/wallpaper.jpg",
+  "wallpaper.image": "/home/tevildo/wallpaper.png",
   "wallpaper.pywal": true,
-  "theme.bar.menus.monochrome": true,
+  "theme.bar.menus.monochrome": false,
   "theme.bar.menus.background": "#2e3440",
   "theme.bar.background": "#2e3440",
   "theme.bar.buttons.media.icon": "#88c0d0",
@@ -631,7 +643,7 @@
   "theme.bar.buttons.modules.hypridle.border": "#8fbcbb",
   "bar.customModules.weather.unit": "metric",
   "theme.bar.menus.opacity": 90,
-  "theme.bar.transparent": false,
+  "theme.bar.transparent": true,
   "theme.bar.opacity": 60,
   "theme.bar.buttons.opacity": 95,
   "theme.bar.buttons.background_opacity": 90,
@@ -662,15 +674,15 @@
   "menus.dashboard.directories.left.directory3.command": "bash -c \"dolphin $HOME/Games/\"",
   "bar.workspaces.applicationIconEmptyWorkspace": "󰍹",
   "bar.customModules.updates.padZero": false,
-  "bar.customModules.updates.leftClick": "$TERMINAL -e ~/.config/hyprpanel/scripts/runUpdates.sh -arch",
+  "bar.customModules.updates.leftClick": "kitty -e ~/.config/hyprpanel/scripts/runUpdates.sh -arch",
   "bar.bluetooth.rightClick": "blueman-manager",
   "theme.bar.buttons.bluetooth.enableBorder": false,
   "menus.power.showLabel": true,
   "menus.power.confirmation": false,
   "bar.launcher.rightClick": "hyprpanel t settings-dialog",
-  "theme.matugen": false,
-  "theme.matugen_settings.scheme_type": "content",
-  "theme.matugen_settings.variation": "monochrome_1",
+  "theme.matugen": true,
+  "theme.matugen_settings.scheme_type": "tonal-spot",
+  "theme.matugen_settings.variation": "monochrome_2",
   "theme.matugen_settings.mode": "dark",
   "menus.dashboard.powermenu.avatar.image": "/home/tevildo/Изображения/chans/бо/такие_дела.jpeg",
   "bar.volume.rightClick": "pavucontrol",
@@ -698,5 +710,16 @@
   "bar.workspaces.showAllActive": false,
   "bar.workspaces.applicationIconOncePerWorkspace": true,
   "bar.customModules.hypridle.label": false,
-  "bar.customModules.hypridle.rightClick": "hyprlock"
+  "bar.customModules.hypridle.rightClick": "hyprlock",
+  "bar.windowtitle.leftClick": "~/.config/hypr/scripts/start_yazi.sh",
+  "bar.windowtitle.rightClick": "bash -c \"dolphin $HOME/\"",
+  "bar.media.middleClick": "cantata",
+  "bar.customModules.kbLayout.labelType": "code",
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.border.location": "none",
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "theme.bar.buttons.volume.enableBorder": false,
+  "bar.autoHide": "never",
+  "bar.customModules.netstat.labelType": "in"
 }

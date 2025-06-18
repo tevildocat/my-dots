@@ -2,7 +2,7 @@
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 "$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
 
-[manager]
+[mgr]
 #ratio          = [ 1, 4, 3 ]
 ratio          = [0, 4, 4 ]
 sort_by        = "alphabetical"
@@ -65,6 +65,7 @@ rules = [
 	# Text
 	{ mime = "text/*", use = [ "edit", "reveal" ] },
 	# Image
+	#{ mime = "image/*", use = [ "gwenview", "gimp", "open", "reveal" ] },
 	{ mime = "image/*", use = [ "open", "reveal" ] },
 	# Media
 	{ mime = "{audio,video}/*", use = [ "play", "reveal" ] },
@@ -88,6 +89,25 @@ image_bound      = [ 0, 0 ]
 suppress_preload = false
 
 [plugin]
+prepend_previewers = [
+	{ name = "*.docx", run = "office" },
+	{ name = "*.xlsx", run = "office" },
+	{ mime = "application/openxmlformats-officedocument.*", run = "office" },
+	{ mime = "application/oasis.opendocument.*", run = "office" },
+	{ mime = "application/ms-*", run = "office" },
+	{ mime = "application/msword", run = "office" },
+	{ name = "*.tar*", run = "piper --format=url -- tar tf \"$1\"" },
+	{ name = "*.csv", run = "piper -- bat -p --color=always \"$1\"" },
+	{ name = "*.md", run = "piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark \"$1\""},
+	{ name = "*/",  run = "piper -- eza -TL=3 --color=always --icons=always --group-directories-first --no-quotes \"$1\"" },
+	{ mime = "application/openxmlformats-officedocument.*", run = "office"},
+	{ mime = "application/oasis.opendocument.*", run = "office"},
+]
+
+append_previewers = [
+	{ name = "*", run = "piper -- hexyl --border=none --terminal-width=$w \"$1\"" },
+]
+
 
 fetchers = [
 	# Mimetype
@@ -146,7 +166,8 @@ previewers = [
 	# Empty file
 	{ mime = "inode/empty", run = "empty" },
 	# Fallback
-	{ name = "*", run = "file" },
+	#{ name = "*", run = "file" },
+	{ name = "*", run = 'piper -- echo "$1"' },
 ]
 
 [input]

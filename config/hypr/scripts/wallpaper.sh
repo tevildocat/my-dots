@@ -139,16 +139,6 @@ if type pywalfox > /dev/null 2>&1; then
 fi
 
 # -----------------------------------------------------
-# wal-telegram
-# -----------------------------------------------------
-
-wal-telegram --wal
-wal-telegram --background $wallpaper
-wal-telegram -g
-wal-telegram -r
-pywalfox update
-
-# -----------------------------------------------------
 # Created blurred wallpaper
 # -----------------------------------------------------
 
@@ -175,6 +165,16 @@ if [ ! -f $rasifile ]; then
     touch $rasifile
 fi
 echo "* { current-image: url(\"$blurredwallpaper\", height); }" > "$rasifile"
+
+# -----------------------------------------------------
+# wal-telegram
+# -----------------------------------------------------
+
+wal-telegram --wal
+wal-telegram --background $wallpaper
+wal-telegram -g
+wal-telegram -r
+pywalfox update
 
 # -----------------------------------------------------
 # Created square wallpaper

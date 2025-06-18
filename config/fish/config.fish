@@ -17,6 +17,8 @@ alias ll='eza -al --icons=always'
 alias lt='eza -a --tree --level=1 --icons=always'
 alias shutdown='systemctl poweroff'
 alias drd='dragon-drop -x -i -T $1'
+alias start_vpn='adguardvpn-cli connect'
+alias stop_vpn='adguardvpn-cli disconnect'
 
 alias gG='cd ~/Games'
 
