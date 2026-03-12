@@ -166,5 +166,5 @@ live_config_reload = true
 working_directory = "None"
 
 import = [
-    "~/.cache/wal/alacritty.toml"
+    "~/.config/alacritty/colors.toml"
 ]

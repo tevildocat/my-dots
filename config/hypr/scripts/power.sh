@@ -1,15 +1,9 @@
 #!/bin/bash
-#  ____                        
-# |  _ \ _____      _____ _ __ 
-# | |_) / _ \ \ /\ / / _ \ '__|
-# |  __/ (_) \ V  V /  __/ |   
-# |_|   \___/ \_/\_/ \___|_|   
-#                              
 
 if [[ "$1" == "exit" ]]; then
     echo ":: Exit"
     sleep 0.5
-    killall -9 Hyprland sleep 2
+    hyprctl dispatch exit
 fi
 
 if [[ "$1" == "lock" ]]; then

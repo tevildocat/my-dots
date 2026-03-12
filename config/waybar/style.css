@@ -1,0 +1,66 @@
+@import 'colors.css'; 
+
+* {
+    font-family: "Fira Sans Semibold", "Font Awesome 7 Free", "Font Awesome 7 Brands", "Font Awesome 6 Free", "Font Awesome 6 Brands", FontAwesome, "Material Icons", Roboto, Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 0px;
+    font-size: 13px;
+    color: @on_background;
+}
+
+window#waybar {
+    background-color: alpha(@blur_background, 0.4);
+    border-bottom: 0px solid #ffffff;
+    /* color: #FFFFFF; */
+    background: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: alpha(@blur_background, 0.7); /* Полупрозрачный фон (60% opacity) */
+    border-radius: 8px; /* Скругление углов (8px — можно менять) */
+    padding: 2px; /* Внутренний отступ */
+    margin: 5px; /* Внешний отступ между виджетами */
+}
+
+#clock
+#tray,
+#window,
+#pulseaudio,
+#language {
+    background: alpha(@blur_background8, 0.8);  /* Тёмный полупрозрачный фон */
+    border-radius: 6px; /* Чуть меньше скругления для виджетов */
+    padding: 3px 8px; /* Отступы внутри виджета */
+    margin: 2px; /* Отступы между виджетами */
+}
+
+#clock {
+    background: alpha(@blur_background8, 0.8);
+    border-radius: 6px;
+    padding: 3px 8px;
+    margin: 2px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#workspaces {
+    background: alpha(@blur_background8, 0.8);
+    margin: 2px 1px 3px 1px;
+    padding: 0px 1px;
+    border-radius: 6px;
+    border: 0px;
+    font-weight: bold;
+    font-style: normal;
+    /*opacity: 0.8;
+    font-size: 16px;
+    color: @on_background;*/
+}

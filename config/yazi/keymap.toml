@@ -15,6 +15,9 @@ keymap = [
 	# Dragon drop
 	{ on = [ "<C-n>" ], run = '''shell 'dragon-drop -x -i -T "$1"' --confirm''', desc = "Dragon-drop" },
 
+	# wl-clipboard
+	#{ on = [ "<C-y>" ], run = "plugin wl-clipboard", desc = "wl-clipboard"},
+
 	# KDEconnect send
 	{ on = [ "<C-s>" ], run = "plugin kdeconnect-send", desc = "Send selected files via KDE Connect" },
 

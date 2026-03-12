@@ -17,10 +17,13 @@ alias ll='eza -al --icons=always'
 alias lt='eza -a --tree --level=1 --icons=always'
 alias shutdown='systemctl poweroff'
 alias drd='dragon-drop -x -i -T $1'
-alias start_vpn='adguardvpn-cli connect'
+alias start_vpn='adguardvpn-cli connect -f'
 alias stop_vpn='adguardvpn-cli disconnect'
+alias openvpn='sudo openvpn --client --config ~/tmp/657307240.ovpn'
 
 alias gG='cd ~/Games'
 
 cat ~/.cache/wal/sequences
 
+#eval "$(/home/tevildo/.local/bin/oh-my-posh init fish --config /home/tevildo/.config/ohmyposh/zen.toml)"
+oh-my-posh init fish --config ~/.config/ohmyposh/zen.toml | source

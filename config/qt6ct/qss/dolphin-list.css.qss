@@ -1,0 +1,6 @@
+QTreeView::item {
+    background-color: palette(base);  
+}
+QTreeView::item:alternate {
+    background-color: palette(base);  
+}

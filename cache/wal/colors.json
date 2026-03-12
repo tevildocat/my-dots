@@ -1,28 +1,22 @@
 {
-    "wallpaper": "/home/tevildo/Изображения/wallpapers/sakura.png",
+    "wallpaper": "/home/tevildo/wallpaper.png",
     "alpha": "100",
-
-    "special": {
-        "background": "#02141B",
-        "foreground": "#e2e0e1",
-        "cursor": "#e2e0e1"
-    },
     "colors": {
-        "color0": "#02141B",
-        "color1": "#5A5E64",
-        "color2": "#9A5E63",
-        "color3": "#757C83",
-        "color4": "#808289",
-        "color5": "#9D9DA2",
-        "color6": "#C1B9BD",
-        "color7": "#e2e0e1",
-        "color8": "#9e9c9d",
-        "color9": "#5A5E64",
-        "color10": "#9A5E63",
-        "color11": "#757C83",
-        "color12": "#808289",
-        "color13": "#9D9DA2",
-        "color14": "#C1B9BD",
-        "color15": "#e2e0e1"
+      "color0": "#131314",
+      "color1": "",
+      "color2": "",
+      "color3": "",
+      "color4": "",
+      "color5": "",
+      "color6": "",
+      "color7": "",
+      "color8": "",
+      "color9": "",
+      "color10": "#bfc7d0",
+      "color11": "",
+      "color12": "",
+      "color13": "#393939",
+      "color14": "",
+      "color15": "#e4e2e2"
     }
-}
+  }

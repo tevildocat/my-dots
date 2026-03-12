@@ -1,0 +1,16 @@
+# This patchconfig was used to build this Kvantum Theme using https://github.com/HimDek/Utterly-Round-Plasma-Style/tree/master/kvantum/Utterly-Round-Transparent-Kvantum-Template
+
+#colors
+background=#131314
+foreground=#e4e2e2
+accent=#1b1b1c
+negative=#ffb4ab
+button=#eddeeb
+inactive=#c4c7cb
+link=#c5c6ca
+visitedlink=#dee0e4
+
+#details
+name=Nord
+author="Himprakash Deka"
+comment="A dark nordic Kvantum theme with transparency, blur and round borders for UI elements"

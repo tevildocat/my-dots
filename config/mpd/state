@@ -1,9 +1,9 @@
-sw_volume: 100
+sw_volume: 80
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
 state: pause
-current: 6
-time: 38.141
+current: 14
+time: 75.688
 random: 1
 repeat: 0
 single: 0
@@ -65,4 +65,287 @@ playlist_begin
 49:Aes Dana/03 - Aes Dana - Memory Shell (2004)/03. Aes Dana - Dusts.mp3
 50:Aes Dana/03 - Aes Dana - Memory Shell (2004)/01. Aes Dana - Chernozem.mp3
 51:Aes Dana/03 - Aes Dana - Memory Shell (2004)/07. Aes Dana - Shouting Valley.mp3
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0001
+Range: 0-520813
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 01
+Title: Distances
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0002
+Range: 520813-981200
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 02
+Title: Access To The Long Fields
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0003
+Range: 981200-1334946
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 03
+Title: Rain Geometries
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0004
+Range: 1334946-1766946
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 04
+Title: Symetric Lifes
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0005
+Range: 1766946-1976160
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 05
+Title: Processing Lights
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0006
+Range: 1976160-2385080
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 06
+Title: Indigo Room
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0007
+Range: 2385080-2894800
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 07
+Title: Time Circles
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0008
+Range: 2894800-3519000
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 08
+Title: Overload (Putput Mix)
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0009
+Range: 3519000-3865173
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 09
+Title: Moon Town
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0010
+Range: 3865173-4323813
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 10
+Title: Morning Call (Dawn Remix)
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Distances/H.U.V.A. Network - Distances.cue/track0011
+Range: 4323813-
+Time: 4680
+Genre: Electronic
+Date: 2004
+AlbumArtist: H.U.V.A. Network
+Album: Distances
+Track: 11
+Title: Sunday Barbecue With The Neighbours
+Artist: H.U.V.A. Network
+mtime: 1732707991
+added: 1732707991
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0001
+Range: 0-399413
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 01
+Title: Dissolving Time
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0002
+Range: 399413-926920
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 02
+Title: .Blank
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0003
+Range: 926920-1473493
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 03
+Title: Orientations part 1 (Above Towns Edit)
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0004
+Range: 1473493-1940400
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 04
+Title: Orientations part 2 (Ephemeride 15.43?)
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0005
+Range: 1940400-2464893
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 05
+Title: Orientations part 3 (Uncertainty Principle)
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0006
+Range: 2464893-2867186
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 06
+Title: Cobalt
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0007
+Range: 2867186-3245013
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 07
+Title: Fade Away
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0008
+Range: 3245013-3692906
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 08
+Title: Diagrams
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0009
+Range: 3692906-4094946
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 09
+Title: Something Heavens
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
+song_begin: H.U.V.A. Network/Ephemeris/H.U.V.A. Network (2009) Ephemeris.cue/track0010
+Range: 4094946-
+Time: 4258.3060000000005
+Playlist: yes
+Genre: Oneiric
+Date: 2009
+AlbumArtist: H.U.V.A. Network
+Album: Ephemeris
+Track: 10
+Title: Saturday Barbecue With New Neighbours
+Artist: H.U.V.A. Network
+mtime: 1732707926
+added: 1732707926
+song_end
 playlist_end
