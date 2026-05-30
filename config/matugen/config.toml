@@ -1,5 +1,9 @@
 [config]
 
+[config.wallpaper]
+set = true
+command = "awww img --transition-type center {{ image }}"
+
 [templates.all-colors]
 input_path = '~/.config/matugen/templates/matugen_test_all_colors.conf'
 output_path = '~/.config/matugen/matugen_test_all_colors.conf'
@@ -9,9 +13,10 @@ input_path = '~/.config/matugen/templates/Matugen.colors'
 output_path = '~/.local/share/color-schemes/Matugen.colors'
 
 [templates.kitty]
-#input_path = '~/.config/matugen/templates/kitty-colors.conf'
+input_path = '~/.config/matugen/templates/kitty-colors.conf'
 #input_path = '~/.config/matugen/templates/kitty-colors_alt_1.conf'
-input_path = '~/.config/matugen/templates/kitty-colors_alt_2.conf'
+#input_path = '~/.config/matugen/templates/kitty-colors_alt_2.conf'
+#input_path = '~/.config/matugen/templates/kitty-colors_1.conf'
 output_path = '~/.config/kitty/colors-matugen.conf'
 post_hook = 'pkill -SIGUSR1 kitty'
 

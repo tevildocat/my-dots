@@ -58,6 +58,13 @@ echo "$wallpaper" > "$cachefile"
 wallpaperfilename=$(basename "$wallpaper")
 echo ":: Wallpaper Filename: $wallpaperfilename"
 
+# Получаем расширение оригинального файла
+extension="${wallpaperfilename##*.}"
+
+# Копируем файл в ~ с именем wallpaper и оригинальным расширением
+cp "$wallpaper" "$HOME/wallpaper.$extension"
+echo "Файл скопирован в ~/wallpaper.$extension"
+
 # Чтение значения размытия
 if [ -f "$blurfile" ]; then
     blur=$(cat "$blurfile")
@@ -71,7 +78,9 @@ pkill -f waybar 2>/dev/null || true
 
 # Запуск matugen
 echo ":: Execute matugen with $used_wallpaper"
-matugen image "$used_wallpaper" -m dark -t scheme-neutral
+#matugen image "$used_wallpaper" -m dark -t scheme-fidelity
+#matugen image "$used_wallpaper" -m dark -t scheme-neutral
+matugen image "$used_wallpaper" -m dark -t scheme-content
 
 # Запуск pywal
 echo ":: Execute pywal with $used_wallpaper"
@@ -113,32 +122,32 @@ square_cache="$generatedversions/square-$wallpaperfilename.png"
 magick "$used_wallpaper" -gravity Center -extent 1:1 "$squarewallpaper" || { echo "Error: square wallpaper failed"; exit 1; }
 cp "$squarewallpaper" "$square_cache"
 
-# Обновляем путь к обоям и включаем авто-генерацию в конфиге Hyprpanel
-if [ -f "$hyprpanel_config" ]; then
-    # Создаём резервную копию
-    cp "$hyprpanel_config" "$hyprpanel_config.bak"
+# # Обновляем путь к обоям и включаем авто-генерацию в конфиге Hyprpanel
+# if [ -f "$hyprpanel_config" ]; then
+#     # Создаём резервную копию
+#     cp "$hyprpanel_config" "$hyprpanel_config.bak"
     
-    if command -v jq &>/dev/null; then
-        # Обновляем оба поля: путь к обоям И включаем генерацию
-        jq --arg wp "$used_wallpaper" \
-           '.wallpaper.image = $wp | .wallpaper.enable = true' \
-           "$hyprpanel_config" > "$hyprpanel_config.tmp"
-        mv "$hyprpanel_config.tmp" "$hyprpanel_config"
-        echo ":: Updated Hyprpanel: wallpaper=$used_wallpaper, enable=true"
-    else
-        # Fallback через sed (менее надёжно)
-        sed -i "s|\"wallpaper.image\": \".*\"|\"wallpaper.image\": \"$used_wallpaper\"|" "$hyprpanel_config"
-        sed -i "s|\"wallpaper.enable\": .*|\"wallpaper.enable\": true|" "$hyprpanel_config"
-        echo ":: Updated Hyprpanel wallpaper path using sed"
-    fi
+#     if command -v jq &>/dev/null; then
+#         # Обновляем оба поля: путь к обоям И включаем генерацию
+#         jq --arg wp "$used_wallpaper" \
+#            '.wallpaper.image = $wp | .wallpaper.enable = true' \
+#            "$hyprpanel_config" > "$hyprpanel_config.tmp"
+#         mv "$hyprpanel_config.tmp" "$hyprpanel_config"
+#         echo ":: Updated Hyprpanel: wallpaper=$used_wallpaper, enable=true"
+#     else
+#         # Fallback через sed (менее надёжно)
+#         sed -i "s|\"wallpaper.image\": \".*\"|\"wallpaper.image\": \"$used_wallpaper\"|" "$hyprpanel_config"
+#         sed -i "s|\"wallpaper.enable\": .*|\"wallpaper.enable\": true|" "$hyprpanel_config"
+#         echo ":: Updated Hyprpanel wallpaper path using sed"
+#     fi
     
-    # Перезапускаем Hyprpanel для применения
-    sleep 0.5
-    hyprpanel -q 2>/dev/null || true && hyprpanel &
-    echo ":: Restarted Hyprpanel to apply new wallpaper"
-else
-    echo ":: Warning: Hyprpanel config not found at $hyprpanel_config"
-fi
+#     # Перезапускаем Hyprpanel для применения
+#     sleep 0.5
+#     hyprpanel -q 2>/dev/null || true && hyprpanel &
+#     echo ":: Restarted Hyprpanel to apply new wallpaper"
+# else
+#     echo ":: Warning: Hyprpanel config not found at $hyprpanel_config"
+# fi
 
 # Обновление цветов kitty
 kitty @ set-colors --all --configured ~/.cache/wal/colors-kitty.conf

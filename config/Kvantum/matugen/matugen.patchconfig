@@ -1,14 +1,14 @@
 # This patchconfig was used to build this Kvantum Theme using https://github.com/HimDek/Utterly-Round-Plasma-Style/tree/master/kvantum/Utterly-Round-Transparent-Kvantum-Template
 
 #colors
-background=#131314
-foreground=#e4e2e2
-accent=#1b1b1c
+background=#0f1416
+foreground=#dee3e6
+accent=#171c1f
 negative=#ffb4ab
-button=#eddeeb
-inactive=#c4c7cb
-link=#c5c6ca
-visitedlink=#dee0e4
+button=#e1e0ff
+inactive=#bfc8cc
+link=#b3cad4
+visitedlink=#cfe6f1
 
 #details
 name=Nord
